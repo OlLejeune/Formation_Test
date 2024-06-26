@@ -24,6 +24,7 @@ search_bar2.send_keys("brioche")
 search_bar2.send_keys(Keys.ENTER)
 time.sleep(3)
 
+
 driver.get_screenshot_as_file("Brioches.png")
 
 time.sleep(10)
